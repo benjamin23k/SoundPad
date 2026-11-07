@@ -1,0 +1,13 @@
+PySide6>=6.7
+SQLAlchemy>=2.0
+pydantic>=2.6
+numpy>=1.26
+soundfile>=0.12
+mutagen>=1.47
+sounddevice>=0.4.6
+PyAudioWPatch>=0.2.12; sys_platform == "win32"
+scipy>=1.11
+pyloudnorm>=0.1.1
+pytest>=8
+pytest-qt>=4.4
+pyinstaller>=6

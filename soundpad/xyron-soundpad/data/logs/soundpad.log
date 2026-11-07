@@ -1,0 +1,4 @@
+2026-11-06 22:41:55,462 | INFO     | soundpad.app | Iniciando Xyron Soundpad
+2026-11-06 22:41:56,089 | INFO     | soundpad.database.session | Esquema de base de datos verificado
+2026-11-06 22:41:58,283 | INFO     | soundpad.audio.engine | Salida de audio iniciada: 48000 Hz, buffer 512
+2026-11-06 23:11:15,166 | INFO     | soundpad.app | Xyron Soundpad cerrado

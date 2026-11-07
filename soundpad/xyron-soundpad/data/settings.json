@@ -1,0 +1,21 @@
+{
+  "audio": {
+    "sample_rate": 48000,
+    "buffer_size": 512,
+    "master_volume": 1.0,
+    "mic_volume": 1.0,
+    "microphone_device": null,
+    "virtual_output_device": null,
+    "headphones_device": null,
+    "output_mode": "both"
+  },
+  "ui": {
+    "theme": "dark",
+    "start_minimized": false,
+    "minimize_to_tray": false,
+    "window_width": 1100,
+    "window_height": 680,
+    "sidebar_width": 200,
+    "last_category": "all"
+  }
+}

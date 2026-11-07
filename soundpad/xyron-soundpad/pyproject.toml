@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xyron-soundpad"
+version = "0.1.0"
+description = "Soundboard de escritorio para Windows con micrófono virtual"
+requires-python = ">=3.12"
+dependencies = [
+    "PySide6>=6.7",
+    "SQLAlchemy>=2.0",
+    "pydantic>=2.6",
+    "numpy>=1.26",
+    "soundfile>=0.12",
+    "mutagen>=1.47",
+]
+
+[project.optional-dependencies]
+audio = ["sounddevice>=0.4.6", "PyAudioWPatch>=0.2.12; sys_platform == 'win32'"]
+processing = ["scipy>=1.11", "pyloudnorm>=0.1.1"]
+dev = ["pytest>=8", "pytest-qt>=4.4", "pyinstaller>=6"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+qt_api = "pyside6"
